@@ -1,0 +1,7 @@
+{
+  "name": "VickyLangiWeatherAPP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
