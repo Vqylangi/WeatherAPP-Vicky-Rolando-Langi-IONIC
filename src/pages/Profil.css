@@ -1,0 +1,87 @@
+ion-content {
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p:last-child {
+    margin-top: 32px;
+    font-weight: bold;
+}
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid #8eeaff;
+}
+
+.content-table th {
+    background-color: #ffffff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.content-table tr:hover {
+    background-color: rgba(134, 233, 255, 0.3);
+}
+
+ion-tab-bar {
+    --ion-color-primary: #0000FF;
+    --ion-tab-background: rgba(255, 255, 255, 0.2);
+    --ion-tab-background-activated: rgba(255, 255, 255, 0.4);
+}
+
+ion-tab-button {
+    --ion-color-primary: #FFFFFF;
+}
+
+ion-tab-button[aria-selected="true"] {
+    --ion-color-primary: #0077FF;
+}
+
+.VRL {
+    text-align: center;
+    font-weight: bold;
+}
+
+ion-header ion-title{
+    font-size: 24px;
+}
+.VRL{
+    font-size: 20px;
+    color: #000055;
+}
+.menu{
+    margin-left: 5px;
+    color: #000055;
+    font-weight: bold;
+}
+.profil{
+    margin-left: 1px;
+    color: #000056;
+    font-weight: bold;
+}
